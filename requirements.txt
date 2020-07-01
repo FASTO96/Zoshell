@@ -1,0 +1,7 @@
+requests
+time
+os 
+cmd 
+pyfiglet
+termcolor 
+re

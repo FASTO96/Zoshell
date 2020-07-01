@@ -99,7 +99,6 @@ def xxe_lfi(args):
 	print (xml)
 
 
-	#xxe_pr = requests.post('https://ac6c1f1c1f925c5e80c2183300be007c.web-security-academy.net/product/stock', data=xml, headers=headers)
 	xxe_pr = requests.post(url_xml, data=xml, headers=headers)
 	print(xxe_pr.text)
 
